@@ -1,0 +1,7 @@
+python-dotenv
+SQLAlchemy>=2
+pymysql
+pandas
+yfinance
+httpx
+openai
