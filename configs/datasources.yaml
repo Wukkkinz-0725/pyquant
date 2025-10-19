@@ -1,0 +1,15 @@
+flipside:
+  enabled: true
+  shroomdk_key_env: SHROOMDK_KEY
+  # example table names are illustrative; adapt to actual Flipside schema
+  swaps_table: bsc.core.ez_swaps
+  max_rows: 200000
+dexscreener:
+  enabled: true
+  base_url_env: DEXSCREENER_BASE
+bscscan:
+  enabled: true
+  api_key_env: BSCSCAN_API_KEY
+rate_limits:
+  http_rps: 5
+  backoff_seconds: 2

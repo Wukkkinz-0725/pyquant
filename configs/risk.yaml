@@ -1,0 +1,7 @@
+guards:
+  max_slip_bps: 300           # 3%
+  max_order_notional_usd: 200
+  max_daily_notional_usd: 1000
+  reject_honeypot: true
+  require_lp_lock_days_min: 7
+  reject_tax_above_bps: 1200
