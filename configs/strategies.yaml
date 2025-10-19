@@ -1,0 +1,24 @@
+gmgn_threshold:
+  liq_usd_min: 20000
+  net_buy_5m_min: 20
+  max_buy_tax_bps: 1000      # 10%
+  max_sell_tax_bps: 1000
+  trailing_arm_pct: 0.80
+  trailing_pct: 0.20
+  stop_loss_pct: 0.25
+  delay_seconds_min: 10
+  delay_seconds_max: 15
+
+whale_copy:
+  whitelist_wallets: []
+  delay_seconds_min: 10
+  delay_seconds_max: 15
+  follow_sell: true
+  trailing_arm_pct: 0.80
+  trailing_pct: 0.20
+  stop_loss_pct: 0.25
+
+grid_search:
+  strategy: gmgn_threshold
+  params:
+    - { net_buy_5m_min: [10, 20, 30], liq_usd_min: [10000, 20000, 50000] }

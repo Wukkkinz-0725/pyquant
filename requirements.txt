@@ -1,0 +1,14 @@
+web3
+requests
+pandas
+numpy
+pyarrow
+pydantic
+SQLAlchemy
+python-dotenv
+tenacity
+typer
+rich
+pytest
+matplotlib
+PyYAML
